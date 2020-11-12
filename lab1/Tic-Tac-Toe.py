@@ -1,3 +1,4 @@
+// Full On Algorithm
 import random
 
 def drawBoard(board):
