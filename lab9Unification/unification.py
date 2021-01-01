@@ -15,7 +15,6 @@ def isConstant(char):
 
 def isVariable(char):
     return char.islower() and len(char) == 1
-
 def replaceAttributes(exp, old, new):
     attributes = getAttributes(exp)
     predicate = getInitialPredicate(exp)
